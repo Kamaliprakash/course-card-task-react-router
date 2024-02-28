@@ -1,0 +1,89 @@
+*{
+   font-family: sans-serif; 
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+} 
+nav{
+    box-shadow: 5px 5px 15px #68737f;
+}
+#navbar li:hover{
+    border-bottom: 4px solid #49a4a4;
+     transition: 0.3s ease-out; 
+ }
+
+#nav{
+ box-sizing:border-box;
+    margin-bottom: 3%;
+}
+#card{
+    padding: 20px 20px;
+    width:90vw;
+    margin: 48px auto;
+}
+ #card2{
+    padding: 20px 20px;
+    width:90vw;
+    margin: 48px auto;
+}
+#card3{
+    padding: 20px 20px;
+    width:90vw;
+    margin: 48px auto;
+}
+#card4{
+    padding: 20px 20px;
+    width:90vw;
+    margin: 48px auto;
+} 
+#card5{
+    padding: 20px 20px;
+    width:90vw;
+    margin: 48px auto;
+    
+}
+
+
+@media screen and (min-width:320px)and (max-width:1200px) {
+    *{
+        font-family: sans-serif; 
+     }
+     #navbar{
+         display: flex;
+         justify-content: center;      
+     } 
+     nav{
+        box-shadow: 5px 5px 15px #616b74;
+    }
+     #navbar li:active{
+        border-bottom: 4px solid #499ea4;
+        transition: 0.3s ease-out;
+     }
+     #nav{
+      box-sizing:border-box;
+         margin-bottom: 3%;
+     }
+     #card{
+         padding: 20px 20px;
+         width:90vw;
+         margin: 48px auto;
+     }
+      #card2{
+         padding: 20px 20px;
+         width:90vw;
+         margin: 48px auto;
+     }
+     #card3{
+         padding: 20px 20px;
+         width:90vw;
+         margin: 48px auto;
+     }
+     #card4{
+         padding: 20px 20px;
+         width:90vw;
+         margin: 48px auto;
+     } 
+     
+    
+    }    
